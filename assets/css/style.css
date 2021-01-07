@@ -1,0 +1,225 @@
+/**************************************
+
+Template Name: knockout | Login and Register Form Html Templates
+Description: Creative & Exclusive Login Registration Template
+Author: Flexwebsystem
+Version: 1.1
+
+======================================
+        Table Of Contents
+======================================
+1. Typography
+2. Default Style
+3.
+*/
+
+/*=======================================================================
+1. Typography
+=========================================================================*/
+body, html {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    background-color: white;
+    color: #1f1f1f;
+}
+
+p {
+    margin: 0 0 20px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+h1,
+h2 {
+    line-height: 1.2;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+@media only screen and (max-width: 1199px) {
+    h1 {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+h2 {
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 1199px) {
+    h2 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h2 {
+        font-size: 22px;
+    }
+}
+
+h3 {
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 991px) {
+    h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h3 {
+        font-size: 18px;
+    }
+}
+
+h4 {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    h4 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h4 {
+        font-size: 16px;
+    }
+}
+
+h5 {
+    font-size: 18px;
+}
+
+
+/*=======================================================================
+2. Default Style
+=========================================================================*/
+a {
+    text-decoration: none;
+}
+
+a:active,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+a:active,
+a:hover,
+a:focus {
+    outline: 0 none;
+}
+
+/*=======================================================================
+3. Screen One
+=========================================================================*/
+.bg-card{
+    background: #f86c6b;
+}
+.card-body{
+    padding: 0.5rem;
+}
+.share-icon img{
+    width: 20px;
+}
+.power-icon img{
+    width: 15px;
+}
+.power-icon{
+    background: white;
+    width: fit-content;
+    border-radius: 7px;
+    padding: 0.7rem 0.5rem;
+    border: 1px solid black;
+}
+.block{
+    background: white;
+    border-radius: 5px;
+}
+.card-deck.inner-block .card {
+    margin: 0 5px;
+}
+.card-deck.inner-block .card:first-child{
+    margin-left:15px !important;
+}
+.card-deck.inner-block .card:last-child{
+    margin-right:15px !important;
+}
+
+@media only screen and (max-width: 1520px) and (min-width: 1200px){
+    .card p{
+        font-size:12px ;
+    }
+}
+
+@media only screen and (max-width: 1390px) and (min-width: 1200px){
+    .card-deck.inner-block .card {
+        margin: 0px 1px;
+        padding: 0.25rem !important;
+    }
+}
+
+@media only screen and (max-width: 912px) and (min-width: 768px){
+    .card p{
+        font-size: 12px;
+    }
+    .card-deck.inner-block .card {
+        padding: 0.15rem !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    .inner-block{
+        flex-direction: row;
+    }
+    .card-deck.inner-block .card{
+        -ms-flex: 1 1 auto!important;
+        flex: 1 1 auto!important;
+    }
+    .title h5{
+        font-size: 20px;
+    }
+}
